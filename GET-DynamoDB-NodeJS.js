@@ -44,7 +44,7 @@ exports.handler = async (event) => {
     const keyJSON = {}
     keyJSON[partitionKey] = keyParam
     
-    // params "object" of what it being inserted into table
+    // params "object" of what it being fetched from the table
     const params = {
         // ** TODO: CHANGE TableName TO THE NAME OF THE TABLE YOU WANT **
         TableName : "name-of-table",
