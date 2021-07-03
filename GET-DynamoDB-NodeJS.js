@@ -27,7 +27,7 @@ exports.handler = async (event) => {
     }
     
     // Basic error handling
-    if (event == undefined || keyParam === "") {
+    if (keyParam === "") {
         // Return an error status code and error message
         return {
             statusCode: 400,
